@@ -1,0 +1,395 @@
+[0m21:06:17.578261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B967422390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96C7169D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96C73ECD0>]}
+
+
+============================== 21:06:17.591646 | c9530b43-2434-4aba-b726-682dd22fddbd ==============================
+[0m21:06:17.591646 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:06:17.592648 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init testeAnalistaBI', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m21:06:17.674167 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\eduar\.dbt
+[0m21:06:17.680342 [debug] [MainThread]: Starter project path: C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\include\starter_project
+[0m21:06:17.702541 [info ] [MainThread]: 
+Your new dbt project "testeAnalistaBI" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:06:17.703903 [info ] [MainThread]: Setting up your profile.
+[0m21:06:35.514720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC813B2AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC8573F810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC8573E210>]}
+
+
+============================== 21:06:35.519326 | be0611d7-2556-4ae6-8cac-70697b541569 ==============================
+[0m21:06:35.519326 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:06:35.519326 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt init testeAnalistaBI', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\eduar\\.dbt'}
+[0m21:06:35.536878 [info ] [MainThread]: A project called testeAnalistaBI already exists here.
+[0m21:06:35.538928 [debug] [MainThread]: Command `dbt init` succeeded at 21:06:35.538928 after 0.10 seconds
+[0m21:06:35.538928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC8573DD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC7F66A990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC85497BD0>]}
+[0m21:06:35.539931 [debug] [MainThread]: Flushing usage events
+[0m21:06:36.684792 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:09:38.056486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D53E3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D53FF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D53FF50>]}
+
+
+============================== 21:09:38.068008 | afc3cb62-2756-4ce5-9fcc-3239d07a68b4 ==============================
+[0m21:09:38.068008 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:09:38.068008 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'printer_width': '80', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m21:09:38.090407 [info ] [MainThread]: dbt version: 1.10.13
+[0m21:09:38.090407 [info ] [MainThread]: python version: 3.11.9
+[0m21:09:38.090407 [info ] [MainThread]: python path: C:\Users\eduar\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m21:09:38.090407 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m21:09:38.256589 [info ] [MainThread]: Using profiles dir at C:\Users\eduar\.dbt
+[0m21:09:38.256589 [info ] [MainThread]: Using profiles.yml file at C:\Users\eduar\.dbt\profiles.yml
+[0m21:09:38.256589 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\dbt_project.yml
+[0m21:09:38.256589 [info ] [MainThread]: adapter type: duckdb
+[0m21:09:38.256589 [info ] [MainThread]: adapter version: 1.9.6
+[0m21:09:38.256589 [info ] [MainThread]: Configuration:
+[0m21:09:38.256589 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:09:38.256589 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:09:38.256589 [info ] [MainThread]: Required dependencies:
+[0m21:09:38.256589 [debug] [MainThread]: Executing "git --help"
+[0m21:09:38.316382 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:09:38.316382 [debug] [MainThread]: STDERR: "b''"
+[0m21:09:38.316382 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:09:38.316382 [info ] [MainThread]: Connection:
+[0m21:09:38.316382 [info ] [MainThread]:   database: analise
+[0m21:09:38.319384 [info ] [MainThread]:   schema: main
+[0m21:09:38.319384 [info ] [MainThread]:   path: C:/Users/eduar/OneDrive/Área de Trabalho/EduardoMetzger/testeAnalistaBI/an_bi/analise.duckdb
+[0m21:09:38.320399 [info ] [MainThread]:   config_options: None
+[0m21:09:38.320399 [info ] [MainThread]:   extensions: None
+[0m21:09:38.320399 [info ] [MainThread]:   settings: {}
+[0m21:09:38.320399 [info ] [MainThread]:   external_root: .
+[0m21:09:38.320399 [info ] [MainThread]:   use_credential_provider: None
+[0m21:09:38.320399 [info ] [MainThread]:   attach: None
+[0m21:09:38.320399 [info ] [MainThread]:   filesystems: None
+[0m21:09:38.324532 [info ] [MainThread]:   remote: None
+[0m21:09:38.324532 [info ] [MainThread]:   plugins: None
+[0m21:09:38.325545 [info ] [MainThread]:   disable_transactions: False
+[0m21:09:38.325545 [info ] [MainThread]: Registered adapter: duckdb=1.9.6
+[0m21:09:38.696341 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m21:09:38.826354 [debug] [MainThread]: Using duckdb connection "debug"
+[0m21:09:38.826354 [debug] [MainThread]: On debug: select 1 as id
+[0m21:09:38.826354 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:09:38.846551 [debug] [MainThread]: SQL status: OK in 0.019 seconds
+[0m21:09:38.846551 [debug] [MainThread]: On debug: Close
+[0m21:09:38.846551 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:09:38.846551 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:09:38.846551 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\dbt_project.yml> not found
+
+[0m21:09:38.846551 [debug] [MainThread]: Command `dbt debug` failed at 21:09:38.846551 after 0.86 seconds
+[0m21:09:38.846551 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:09:38.846551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D53FBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D53F350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E04D1A1450>]}
+[0m21:09:38.854249 [debug] [MainThread]: Flushing usage events
+[0m21:09:39.976134 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:14:03.701756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D076D4F090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D076A97190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D076D4C150>]}
+
+
+============================== 21:14:03.706270 | f4715f14-328f-4eab-8f83-65c7d4f6d32b ==============================
+[0m21:14:03.706270 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:14:03.706270 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m21:14:03.707286 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:14:03.708290 [debug] [MainThread]: Command `dbt run` failed at 21:14:03.708290 after 0.08 seconds
+[0m21:14:03.708290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D076D47A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D076015F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0769A12D0>]}
+[0m21:14:03.709292 [debug] [MainThread]: Flushing usage events
+[0m21:14:04.674994 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:38:07.858336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C919BE2C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C91DC973D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C91DF52450>]}
+
+
+============================== 21:38:07.860860 | b96cc83d-60a7-4654-beb1-54ac270a3bad ==============================
+[0m21:38:07.860860 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:38:07.860860 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m21:38:22.416764 [debug] [MainThread]: Starter project path: C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\include\starter_project
+[0m21:38:22.436851 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:38:22.436851 [info ] [MainThread]: Setting up your profile.
+[0m21:38:22.436851 [error] [MainThread]: Encountered an error:
+'charmap' codec can't decode byte 0x81 in position 112: character maps to <undefined>
+[0m21:38:22.441773 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\task\init.py", line 248, in setup_profile
+    if not self.check_if_can_write_profile(profile_name=profile_name):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\task\init.py", line 209, in check_if_can_write_profile
+    profiles = yaml.safe_load(f) or {}
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\__init__.py", line 79, in load
+    loader = Loader(stream)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\loader.py", line 34, in __init__
+    Reader.__init__(self, stream)
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\reader.py", line 85, in __init__
+    self.determine_encoding()
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\reader.py", line 124, in determine_encoding
+    self.update_raw()
+  File "C:\Users\eduar\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\yaml\reader.py", line 178, in update_raw
+    data = self.stream.read(size)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 112: character maps to <undefined>
+
+[0m21:38:22.441773 [debug] [MainThread]: Command `dbt init` failed at 21:38:22.441773 after 14.66 seconds
+[0m21:38:22.441773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C918C07C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C91DEE4110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C91DF12A50>]}
+[0m21:38:22.441773 [debug] [MainThread]: Flushing usage events
+[0m21:38:23.588790 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:48:42.494575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251E52D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251E7D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251E7810>]}
+
+
+============================== 21:48:42.499120 | d8da36eb-acb0-4d67-8c3a-7e04f6f848e6 ==============================
+[0m21:48:42.499120 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:48:42.499120 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run --select extract_empresas', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'printer_width': '80', 'log_path': 'C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\EduardoMetzger\\testeAnalistaBI\\an_bi\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\eduar\\.dbt'}
+[0m21:48:42.499120 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_project'
+[0m21:48:42.499120 [debug] [MainThread]: Command `dbt run` failed at 21:48:42.499120 after 0.08 seconds
+[0m21:48:42.499120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251DF750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251DFE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2251DFB50>]}
+[0m21:48:42.499120 [debug] [MainThread]: Flushing usage events
+[0m21:48:43.467298 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:50:14.220673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657CBE6E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657CBE4F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657CBE7CD0>]}
+
+
+============================== 21:50:14.226993 | 29561dd2-0198-4d93-a6be-13a1a7fff8cf ==============================
+[0m21:50:14.226993 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:50:14.226993 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run --select extract_empresas', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'empty': 'False', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\EduardoMetzger\\testeAnalistaBI\\an_bi\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m21:50:14.226993 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_project'
+[0m21:50:14.232013 [debug] [MainThread]: Command `dbt run` failed at 21:50:14.232013 after 0.08 seconds
+[0m21:50:14.232013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657AF16390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657C9975D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001657CBDF910>]}
+[0m21:50:14.232013 [debug] [MainThread]: Flushing usage events
+[0m21:50:15.320258 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:50:55.821647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CE4390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CDFE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CE7BD0>]}
+
+
+============================== 21:50:55.821647 | 846e29bf-3de0-4401-acfb-81e9ab5268b1 ==============================
+[0m21:50:55.821647 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:50:55.821647 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run --select extract_empresas', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'empty': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\EduardoMetzger\\testeAnalistaBI\\an_bi\\logs', 'profiles_dir': 'C:\\Users\\eduar\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m21:50:55.829183 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_project'
+[0m21:50:55.829183 [debug] [MainThread]: Command `dbt run` failed at 21:50:55.829183 after 0.08 seconds
+[0m21:50:55.829183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CE43D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CDF710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000174A7CDF890>]}
+[0m21:50:55.829183 [debug] [MainThread]: Flushing usage events
+[0m21:50:56.687138 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:51:14.757337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F1E6C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F11AA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F1DFF50>]}
+
+
+============================== 21:51:14.768081 | 1eec02f4-e11f-4317-ac0f-51bfec6dab63 ==============================
+[0m21:51:14.768081 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:51:14.768081 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run --select extract_empresas', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'empty': 'False', 'quiet': 'False', 'log_path': 'C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\EduardoMetzger\\testeAnalistaBI\\an_bi\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\eduar\\.dbt'}
+[0m21:51:14.968210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05B160910>]}
+[0m21:51:15.017378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A059E81AD0>]}
+[0m21:51:15.017378 [info ] [MainThread]: Registered adapter: duckdb=1.9.6
+[0m21:51:15.392174 [debug] [MainThread]: checksum: 9f0c81e2574b4ff463f3d16d080df83c6982fc0372c9feeacae0504ac9ea3ffe, vars: {}, profile: , target: , version: 1.10.13
+[0m21:51:15.392174 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m21:51:15.392174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F4A36D0>]}
+[0m21:51:16.287063 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_project.example
+[0m21:51:16.288805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F88E9D0>]}
+[0m21:51:16.341318 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\target\manifest.json
+[0m21:51:16.344133 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\target\semantic_manifest.json
+[0m21:51:16.364639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F9D4910>]}
+[0m21:51:16.365644 [info ] [MainThread]: Found 2 models, 444 macros
+[0m21:51:16.365644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F964850>]}
+[0m21:51:16.367149 [info ] [MainThread]: 
+[0m21:51:16.368165 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:51:16.368165 [info ] [MainThread]: 
+[0m21:51:16.369196 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:51:16.370200 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_analise'
+[0m21:51:16.487767 [debug] [ThreadPool]: Using duckdb connection "list_analise"
+[0m21:51:16.487767 [debug] [ThreadPool]: On list_analise: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "connection_name": "list_analise"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"analise"'
+    
+  
+  
+[0m21:51:16.487767 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:51:16.504144 [debug] [ThreadPool]: SQL status: OK in 0.015 seconds
+[0m21:51:16.504144 [debug] [ThreadPool]: On list_analise: Close
+[0m21:51:16.507257 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_analise, now create_analise_main)
+[0m21:51:16.507257 [debug] [ThreadPool]: Creating schema "database: "analise"
+schema: "main"
+"
+[0m21:51:16.512276 [debug] [ThreadPool]: Using duckdb connection "create_analise_main"
+[0m21:51:16.512276 [debug] [ThreadPool]: On create_analise_main: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "connection_name": "create_analise_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='analise'
+        and type='sqlite'
+    
+  
+[0m21:51:16.512276 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:51:16.512276 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m21:51:16.512276 [debug] [ThreadPool]: Using duckdb connection "create_analise_main"
+[0m21:51:16.512276 [debug] [ThreadPool]: On create_analise_main: BEGIN
+[0m21:51:16.517293 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m21:51:16.517293 [debug] [ThreadPool]: Using duckdb connection "create_analise_main"
+[0m21:51:16.517293 [debug] [ThreadPool]: On create_analise_main: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "connection_name": "create_analise_main"} */
+
+    
+    
+        create schema if not exists "analise"."main"
+    
+[0m21:51:16.517293 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m21:51:16.517293 [debug] [ThreadPool]: On create_analise_main: COMMIT
+[0m21:51:16.519812 [debug] [ThreadPool]: Using duckdb connection "create_analise_main"
+[0m21:51:16.519812 [debug] [ThreadPool]: On create_analise_main: COMMIT
+[0m21:51:16.520683 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m21:51:16.520683 [debug] [ThreadPool]: On create_analise_main: Close
+[0m21:51:16.524707 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_analise_main'
+[0m21:51:16.529244 [debug] [ThreadPool]: Using duckdb connection "list_analise_main"
+[0m21:51:16.530250 [debug] [ThreadPool]: On list_analise_main: BEGIN
+[0m21:51:16.530250 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:51:16.531252 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m21:51:16.531252 [debug] [ThreadPool]: Using duckdb connection "list_analise_main"
+[0m21:51:16.532255 [debug] [ThreadPool]: On list_analise_main: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "connection_name": "list_analise_main"} */
+select
+      'analise' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'analise'
+  
+[0m21:51:16.542351 [debug] [ThreadPool]: SQL status: OK in 0.014 seconds
+[0m21:51:16.547368 [debug] [ThreadPool]: On list_analise_main: ROLLBACK
+[0m21:51:16.547368 [debug] [ThreadPool]: Failed to rollback 'list_analise_main'
+[0m21:51:16.547368 [debug] [ThreadPool]: On list_analise_main: Close
+[0m21:51:16.547368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F75B490>]}
+[0m21:51:16.547368 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:51:16.547368 [debug] [MainThread]: On master: BEGIN
+[0m21:51:16.547368 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:51:16.547368 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m21:51:16.547368 [debug] [MainThread]: On master: COMMIT
+[0m21:51:16.547368 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:51:16.552387 [debug] [MainThread]: On master: COMMIT
+[0m21:51:16.552387 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m21:51:16.553391 [debug] [MainThread]: On master: Close
+[0m21:51:16.553391 [debug] [Thread-1 (]: Began running node model.dbt_project.extract_empresas
+[0m21:51:16.557387 [info ] [Thread-1 (]: 1 of 1 START sql table model main.extract_empresas ............................. [RUN]
+[0m21:51:16.557387 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.dbt_project.extract_empresas'
+[0m21:51:16.557387 [debug] [Thread-1 (]: Began compiling node model.dbt_project.extract_empresas
+[0m21:51:16.557387 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_project.extract_empresas"
+[0m21:51:16.567019 [debug] [Thread-1 (]: Began executing node model.dbt_project.extract_empresas
+[0m21:51:16.587562 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_project.extract_empresas"
+[0m21:51:16.597361 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_project.extract_empresas"
+[0m21:51:16.597361 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: BEGIN
+[0m21:51:16.597361 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:51:16.597361 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m21:51:16.597361 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_project.extract_empresas"
+[0m21:51:16.597361 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "node_id": "model.dbt_project.extract_empresas"} */
+
+  
+    
+    
+
+    create  table
+      "analise"."main"."extract_empresas__dbt_tmp"
+  
+    as (
+      
+
+select
+    *
+from read_csv_auto('C:/Users/eduar/OneDrive/Área de Trabalho/EduardoMetzger/testeAnalistaBI/an_bi/spreadsheets/df_empresas.csv', HEADER=TRUE)
+    );
+  
+  
+[0m21:51:16.687255 [debug] [Thread-1 (]: SQL status: OK in 0.096 seconds
+[0m21:51:16.702024 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_project.extract_empresas"
+[0m21:51:16.702024 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "node_id": "model.dbt_project.extract_empresas"} */
+alter table "analise"."main"."extract_empresas__dbt_tmp" rename to "extract_empresas"
+[0m21:51:16.702024 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:51:16.712230 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: COMMIT
+[0m21:51:16.712230 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_project.extract_empresas"
+[0m21:51:16.712230 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: COMMIT
+[0m21:51:16.727493 [debug] [Thread-1 (]: SQL status: OK in 0.015 seconds
+[0m21:51:16.732893 [debug] [Thread-1 (]: Using duckdb connection "model.dbt_project.extract_empresas"
+[0m21:51:16.732893 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: /* {"app": "dbt", "dbt_version": "1.10.13", "profile_name": "an_bi", "target_name": "dev", "node_id": "model.dbt_project.extract_empresas"} */
+
+      drop table if exists "analise"."main"."extract_empresas__dbt_backup" cascade
+    
+[0m21:51:16.732893 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m21:51:16.737448 [debug] [Thread-1 (]: On model.dbt_project.extract_empresas: Close
+[0m21:51:16.737448 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1eec02f4-e11f-4317-ac0f-51bfec6dab63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05FD09E50>]}
+[0m21:51:16.737448 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.extract_empresas ........................ [[32mOK[0m in 0.18s]
+[0m21:51:16.737448 [debug] [Thread-1 (]: Finished running node model.dbt_project.extract_empresas
+[0m21:51:16.737448 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:51:16.737448 [debug] [MainThread]: On master: BEGIN
+[0m21:51:16.737448 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:51:16.737448 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m21:51:16.737448 [debug] [MainThread]: On master: COMMIT
+[0m21:51:16.737448 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:51:16.737448 [debug] [MainThread]: On master: COMMIT
+[0m21:51:16.737448 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m21:51:16.737448 [debug] [MainThread]: On master: Close
+[0m21:51:16.737448 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:51:16.737448 [debug] [MainThread]: Connection 'create_analise_main' was properly closed.
+[0m21:51:16.737448 [debug] [MainThread]: Connection 'list_analise_main' was properly closed.
+[0m21:51:16.747468 [debug] [MainThread]: Connection 'model.dbt_project.extract_empresas' was properly closed.
+[0m21:51:16.747468 [info ] [MainThread]: 
+[0m21:51:16.747468 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.38 seconds (0.38s).
+[0m21:51:16.748986 [debug] [MainThread]: Command end result
+[0m21:51:16.767256 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\target\manifest.json
+[0m21:51:16.770610 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\target\semantic_manifest.json
+[0m21:51:16.771656 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eduar\OneDrive\Área de Trabalho\EduardoMetzger\testeAnalistaBI\an_bi\target\run_results.json
+[0m21:51:16.771656 [info ] [MainThread]: 
+[0m21:51:16.777010 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:51:16.777010 [info ] [MainThread]: 
+[0m21:51:16.777010 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m21:51:16.777010 [debug] [MainThread]: Command `dbt run` succeeded at 21:51:16.777010 after 2.09 seconds
+[0m21:51:16.777010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0590B5A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A05F3E9550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0590B5990>]}
+[0m21:51:16.777010 [debug] [MainThread]: Flushing usage events
+[0m21:51:17.910533 [debug] [MainThread]: An error was encountered while trying to flush usage events
