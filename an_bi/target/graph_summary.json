@@ -1,1 +1,0 @@
-{"_invocation_id": "1eec02f4-e11f-4317-ac0f-51bfec6dab63", "linked": {"0": {"name": "model.dbt_project.extract_empresas", "type": "model"}, "1": {"name": "model.dbt_project.extract_empresas_bolsa", "type": "model"}}}
